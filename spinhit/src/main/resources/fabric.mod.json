@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spinhit",
+  "version": "${version}",
+  "name": "SpinHit",
+  "description": "Sends a 180 turn and a 180 back in the same tick when you hit an entity.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.spinhit.SpinHitClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
